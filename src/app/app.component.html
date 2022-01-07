@@ -1,0 +1,19 @@
+<div class="calculator">
+  <div style="text-align:center">
+  <h1>
+    {{title}}
+  </h1>
+  <h2>
+  <input type="number" name="a"[(ngModel)]="a">
+  <input type="number" name="b"[(ngModel)]="b">
+  </h2>
+  <br><br>
+  <button (click)="add()">Add</button>
+  <button (click)="sub()" >Subtract</button>
+  <button (click)="multiply()">Multiply</button>
+  <button (click)="divide()">Divide</button>
+  <br>
+  <h3>Answer : {{c}}</h3>
+ <br>
+  </div>
+</div>
